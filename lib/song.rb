@@ -17,7 +17,7 @@ class Song
   end
 
   def self.artist
-    @@artists.collect.each do |artist|
+    @@artists.collect do |artist|
       @@artists.include?(artist)
     end
   end
