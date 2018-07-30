@@ -37,6 +37,7 @@ class Song
     genre_count = Hash.new
     @@genres.each do |genre|
       genre_count[genre] = @@genres.count(genre)
+    end
+    genre_count
   end
-  genre_count
 end
